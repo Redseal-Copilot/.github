@@ -1,0 +1,9 @@
+{
+  "name": "aggrid",
+  "version": "1.0.0",
+  "display_name": "AG Grid",
+  "description": "AG Grid data visualization",
+  "transport": {
+    "type": "stdio"
+  }
+}
