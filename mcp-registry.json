@@ -6,26 +6,31 @@
   "servers": [
     {
       "name": "github",
+      "enabled": true,
       "verified": true,
       "description": "GitHub repository and issue integration"
     },
     {
       "name": "jira",
+      "enabled": true,
       "verified": true,
       "description": "Jira project management integration"
     },
     {
       "name": "aggrid",
+      "enabled": true,
       "verified": true,
       "description": "AG Grid data visualization"
     },
     {
       "name": "keylines",
+      "enabled": true,
       "verified": true,
       "description": "Graph and network visualization"
     },
     {
       "name": "playwright",
+      "enabled": true,
       "verified": true,
       "description": "Browser automation and testing"
     }
