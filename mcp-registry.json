@@ -1,43 +1,7 @@
 {
   "version": "1.0",
   "organization": "Redseal-Copilot",
-  "registryUrl": "https://raw.githubusercontent.com/Redseal-Copilot/.github/main/mcp-registry.json",
   "description": "Whitelisted MCP servers for Redseal-Copilot organization",
-  "servers": [
-    {
-      "name": "github",
-      "type": "mcp",
-      "url": "https://<GITHUB_MCP_ENDPOINT>",
-      "enabled": true,
-      "description": "GitHub repository and issue integration"
-    },
-    {
-      "name": "jira",
-      "type": "mcp",
-      "url": "https://<JIRA_MCP_ENDPOINT>",
-      "enabled": true,
-      "description": "Jira project management integration"
-    },
-    {
-      "name": "aggrid",
-      "type": "mcp",
-      "url": "https://<AGGRID_MCP_ENDPOINT>",
-      "enabled": true,
-      "description": "AG Grid data visualization"
-    },
-    {
-      "name": "keylines",
-      "type": "mcp",
-      "url": "https://<KEYLINES_MCP_ENDPOINT>",
-      "enabled": true,
-      "description": "Graph and network visualization"
-    },
-    {
-      "name": "playwright",
-      "type": "mcp",
-      "url": "https://<PLAYWRIGHT_MCP_ENDPOINT>",
-      "enabled": true,
-      "description": "Browser automation and testing"
-    }
-  ]
+  "registryBaseUrl": "https://raw.githubusercontent.com/Redseal-Copilot/.github/main/registry/v0.1/servers"
 }
+``
