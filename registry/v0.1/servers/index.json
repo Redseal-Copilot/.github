@@ -1,25 +1,35 @@
 {
-  "version": "1.0",
-  "servers": {
-    "github": {
+  "version": "0.1",
+  "servers": [
+    {
+      "id": "github",
       "name": "GitHub MCP",
-      "latest": "1.0"
+      "url": "https://github.com",
+      "verified": true
     },
-    "jira": {
+    {
+      "id": "jira",
       "name": "Jira MCP",
-      "latest": "1.0"
+      "url": "https://jira-mcp.atlassian.com",
+      "verified": true
     },
-    "aggrid": {
+    {
+      "id": "aggrid",
       "name": "AgGrid MCP",
-      "latest": "1.0"
+      "url": "https://www.ag-grid.com",
+      "verified": true
     },
-    "keylines": {
-      "name": "Keylines MCP",
-      "latest": "1.0"
+    {
+      "id": "keylines",
+      "name": "KeyLines MCP",
+      "url": "https://cambridge-intelligence.com/keylines",
+      "verified": true
     },
-    "playwright": {
+    {
+      "id": "playwright",
       "name": "Playwright MCP",
-      "latest": "1.0"
+      "url": "https://playwright.dev",
+      "verified": true
     }
-  }
+  ]
 }
