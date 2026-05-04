@@ -1,32 +1,50 @@
 {
   "servers": [
     {
-      "name": "github",
-      "description": "GitHub MCP server",
-      "latestVersion": "1.0.0"
+      "server": {
+        "name": "github",
+        "description": "GitHub MCP server",
+        "version": "1.0.0",
+        "title": "GitHub",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://api.githubcopilot.com/mcp/"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "is_latest": true,
+          "published_at": "2026-05-01T00:00:00Z",
+          "updated_at": "2026-05-01T00:00:00Z"
+        }
+      }
     },
     {
-      "name": "jira",
-      "description": "Jira MCP server",
-      "latestVersion": "1.0.0"
-    },
-    {
-      "name": "aggrid",
-      "description": "AgGrid MCP server",
-      "latestVersion": "1.0.0"
-    },
-    {
-      "name": "keylines",
-      "description": "Keylines MCP server",
-      "latestVersion": "1.0.0"
-    },
-    {
-      "name": "playwright",
-      "description": "Playwright MCP server",
-      "latestVersion": "1.0.0"
+      "server": {
+        "name": "jira",
+        "description": "Jira MCP server",
+        "version": "1.0.0",
+        "title": "Jira",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://jira-mcp.atlassian.com"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "is_latest": true
+        }
+      }
     }
   ],
   "metadata": {
-    "nextCursor": null
+    "count": 2,
+    "next_cursor": null
   }
 }
