@@ -1,35 +1,33 @@
 {
-  "version": "0.1",
   "servers": [
     {
-      "id": "github",
-      "name": "GitHub MCP",
-      "url": "https://github.com",
-      "verified": true
+      "name": "io.redseal.github",
+      "description": "GitHub MCP server",
+      "latestVersion": "1.0.0"
     },
     {
-      "id": "jira",
-      "name": "Jira MCP",
-      "url": "https://jira-mcp.atlassian.com",
-      "verified": true
+      "name": "io.redseal.jira",
+      "description": "Jira MCP server",
+      "latestVersion": "1.0.0"
     },
     {
-      "id": "aggrid",
-      "name": "AgGrid MCP",
-      "url": "https://www.ag-grid.com",
-      "verified": true
+      "name": "io.redseal.aggrid",
+      "description": "AgGrid MCP server",
+      "latestVersion": "1.0.0"
     },
     {
-      "id": "keylines",
-      "name": "KeyLines MCP",
-      "url": "https://cambridge-intelligence.com/keylines",
-      "verified": true
+      "name": "io.redseal.keylines",
+      "description": "Keylines MCP server",
+      "latestVersion": "1.0.0"
     },
     {
-      "id": "playwright",
-      "name": "Playwright MCP",
-      "url": "https://playwright.dev",
-      "verified": true
+      "name": "io.redseal.playwright",
+      "description": "Playwright MCP server",
+      "latestVersion": "1.0.0"
     }
-  ]
+  ],
+  "metadata": {
+    "nextCursor": null
+  }
 }
+``
