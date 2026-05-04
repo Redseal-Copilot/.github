@@ -1,27 +1,27 @@
 {
   "servers": [
     {
-      "name": "io.redseal.github",
+      "name": "github",
       "description": "GitHub MCP server",
       "latestVersion": "1.0.0"
     },
     {
-      "name": "io.redseal.jira",
+      "name": "jira",
       "description": "Jira MCP server",
       "latestVersion": "1.0.0"
     },
     {
-      "name": "io.redseal.aggrid",
+      "name": "aggrid",
       "description": "AgGrid MCP server",
       "latestVersion": "1.0.0"
     },
     {
-      "name": "io.redseal.keylines",
+      "name": "keylines",
       "description": "Keylines MCP server",
       "latestVersion": "1.0.0"
     },
     {
-      "name": "io.redseal.playwright",
+      "name": "playwright",
       "description": "Playwright MCP server",
       "latestVersion": "1.0.0"
     }
